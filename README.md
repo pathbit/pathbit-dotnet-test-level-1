@@ -32,9 +32,9 @@ A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organiz
   - `./Infrastructure`
 - `./tests/UnitTests`
 
-### Desafio: Sistema de Gerenciamento de Clientes e Pedidos
+## Desafio: Sistema de Gerenciamento de Clientes e Pedidos
 
-#### Entidades Principais:
+### Entidades Principais:
 
 - **User**: Detalhes do usuário incluindo ID (GUID), e-mail, nome de usuário, senha, e tipo do usuário (CLIENTE ou ADMINISTRADOR).
 - **Customer**: Informações do cliente contendo ID (GUID), nome, e e-mail.
@@ -42,7 +42,7 @@ A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organiz
 - **Order**: Detalhes do pedido com ID (GUID), data do pedido, status (ENVIADO), ID do cliente, ID do produto, quantidade, preço, CEP de entrega e endereço de entrega.
 - _**OBSERVAÇÃO**: As entidades Order, Product e Customer devem estar interligadas por relações de chave estrangeira._
 
-#### Endpoints e Regras Obrigatórias:
+### Endpoints e Regras Obrigatórias:
 > [1] Os IDs devem ser gerados automaticamente no formato `GUID`
 > 
 > [2] Você deve criar os demais endpoints e as demais regras que julgar necessárias
@@ -73,19 +73,19 @@ A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organiz
   - No envio da ordem deve ser validado se a quantidade disponível para o produto é maior que a quantidade da ordem
   - A quantidade disponível deve ser atualizada após a gravação de uma ordem no banco de dados, utilize transação para realizar esta regra com segurança
 
-#### Operações Específicas:
+### Operações Específicas:
 
 - Detalhamento de operações de gerenciamento de clientes, pedidos, e produtos.
 - Validação e atualização segura de quantidades de produtos disponíveis.
 
-#### Critérios de Entrega:
+### Critérios de Entrega:
 
 - Código fonte hospedado no GitHub, com um `README.md` detalhando instruções de: execução do projeto local, execução do projeto no docker e avaliação da cobertura de testes.
 - Documentação dos endpoints utilizando Swagger.
 - Configuração para execução em Docker, incluindo `Dockerfile` e `docker-compose.yml`.
 - Scripts de banco de dados localizados em `./scripts/db` para setup inicial.
 
-## Avaliação:
+### Avaliação:
 
 O foco da avaliação será na estratégia adotada para o gerenciamento de pedidos, cobertura e qualidade dos testes unitários, qualidade do código, aderência aos princípios SOLID e Clean Code, modelagem e performance do banco de dados, uso correto dos verbos e status code HTTP, e tratamento de erros na API.
 
