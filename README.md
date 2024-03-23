@@ -1,4 +1,6 @@
-# pathbit-dotnet-test-level-1-v2
+# Recrutamento PATHBIT - Desafio de Desenvolvimento .NET Level 1 (Versão 2.0)
+
+## Introdução
 
 Este desafio propõe a construção de uma API REST em .NET, utilizando a linguagem C#, com enfoque em práticas de desenvolvimento, design de software e arquitetura de sistemas. O objetivo é desenvolver um sistema de gerenciamento de clientes e pedidos, aplicando conceitos modernos de programação e design arquitetônico.
 
