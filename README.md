@@ -5,7 +5,7 @@ Este desafio propõe a construção de uma API REST em .NET, utilizando a lingua
 ## Importante
 
 1. Você deve criar o CRUD para todas as entidades referenciadas neste projeto.
-2. Você deve respeitar as regras obrigatórias e deve criar regras, endpoints e outros para a entrega do CRUD do projeto.
+2. Você deve respeitar as regras obrigatórias, criar novas regras, endpoints e outros necessários paraa entrega do CRUD deste projeto.
 3. Você pode e deve utilizar padrões de mercado e propor melhores soluções para resolver o problema apresentado, seja criativo.
 4. Testes unitários são importantes e obrigatóriso. Buscamos uma cobertura de testes mínima de 70% para este projeto.
 
