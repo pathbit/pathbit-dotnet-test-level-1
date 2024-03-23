@@ -90,6 +90,6 @@ A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organiz
 O foco da avaliação será na estratégia adotada para o gerenciamento de pedidos, cobertura e qualidade dos testes unitários, qualidade do código, aderência aos princípios SOLID e Clean Code, modelagem e performance do banco de dados, uso correto dos verbos e status code HTTP, e tratamento de erros na API.
 
 ## Entrega
-Ao concluir o desafio, organize o código em um repositório Git publico pessoal em seu nome e envie o link para a equipe de recrutamento. Documente os passos para execução do projeto e quaisquer outras informações que considere relevantes.
+Ao concluir o desafio, disponibilize o código em um repositório Git publico pessoal em seu nome e envie o link para a equipe de recrutamento da PATHBIT. Documente os passos para execução do projeto e quaisquer outras informações que considere relevantes.
 
 Boa sorte!
