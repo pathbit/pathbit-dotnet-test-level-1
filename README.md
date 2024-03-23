@@ -2,14 +2,14 @@
 
 Este desafio propõe a construção de uma API REST em .NET, utilizando a linguagem C#, com enfoque em práticas de desenvolvimento, design de software e arquitetura de sistemas. O objetivo é desenvolver um sistema de gerenciamento de clientes e pedidos, aplicando conceitos modernos de programação e design arquitetônico.
 
-### Importante
+## Importante
 
 1. Você deve criar o CRUD para todas as entidades referenciadas neste projeto.
 2. Você deve respeitar as regras obrigatórias e deve criar regras, endpoints e outros para a entrega do CRUD do projeto.
 3. Você pode e deve utilizar padrões de mercado e propor melhores soluções para resolver o problema apresentado, seja criativo.
 4. Testes unitários são importantes e obrigatóriso. Buscamos uma cobertura de testes mínima de 70% para este projeto.
 
-### Tecnologias e Práticas Requeridas
+## Tecnologias e Práticas Requeridas
 
 - Utilização do .NET C# na versão 6 ou superior.
 - Adoção de Orientação a Objetos, princípios SOLID e Clean Code.
@@ -20,7 +20,7 @@ Este desafio propõe a construção de uma API REST em .NET, utilizando a lingua
 - Documentação da API com Swagger.
 - Configuração de logs em arquivo texto (`./logs/application.log`), com os arquivos de log devidamente ignorados pelo sistema de controle de versão `.gitignore`.
 
-### Estrutura do Projeto
+## Estrutura do Projeto
 
 A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organizada nas seguintes pastas:
 
@@ -44,9 +44,9 @@ A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organiz
 
 #### Endpoints e Regras Obrigatórias:
 > [1] Os IDs devem ser gerados automaticamente no formato `GUID`
-
+> 
 > [2] Você deve criar os demais endpoints e as demais regras que julgar necessárias
-
+> 
 > [3] AS REGRAS BAIXO SÃO OBRIGATÓRIAS E NÃO EXCLUEM REGRAS E ENDPOINTS QUE VOCÊ DEVE IMPLEMENTAR PARA UM PROJETO MAIS RESILIENTE E COMPLETO
 
 - **POST /signup**: Cadastra clientes e usuários, armazenando a senha como hash SHA256.
@@ -78,13 +78,18 @@ A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organiz
 - Detalhamento de operações de gerenciamento de clientes, pedidos, e produtos.
 - Validação e atualização segura de quantidades de produtos disponíveis.
 
-### Critérios de Entrega:
+#### Critérios de Entrega:
 
 - Código fonte hospedado no GitHub, com um `README.md` detalhando instruções de: execução do projeto local, execução do projeto no docker e avaliação da cobertura de testes.
 - Documentação dos endpoints utilizando Swagger.
 - Configuração para execução em Docker, incluindo `Dockerfile` e `docker-compose.yml`.
 - Scripts de banco de dados localizados em `./scripts/db` para setup inicial.
 
-### Avaliação:
+## Avaliação:
 
 O foco da avaliação será na estratégia adotada para o gerenciamento de pedidos, cobertura e qualidade dos testes unitários, qualidade do código, aderência aos princípios SOLID e Clean Code, modelagem e performance do banco de dados, uso correto dos verbos e status code HTTP, e tratamento de erros na API.
+
+## Entrega
+Ao concluir o desafio, organize o código em um repositório Git publico pessoal em seu nome e envie o link para a equipe de recrutamento. Documente os passos para execução do projeto e quaisquer outras informações que considere relevantes.
+
+Boa sorte!
