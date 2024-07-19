@@ -1,4 +1,4 @@
-# Recrutamento PATHBIT - Desafio de Desenvolvimento .NET Level 1 (Versão 2.0)
+# Recrutamento PATHBIT - Desafio de Desenvolvimento .NET Level 1
 
 ## Introdução
 
