@@ -13,7 +13,7 @@ Este desafio propõe a construção de uma API REST em .NET, utilizando a lingua
 
 ## Tecnologias e Práticas Requeridas
 
-- Utilização do .NET C# na versão 6 ou superior.
+- Utilização do .NET C# na versão 8 ou superior.
 - Adoção de Orientação a Objetos, princípios SOLID e Clean Code.
 - Implementação de testes unitários utilizando o framework xUnit.
 - Uso de banco de dados PostgreSQL.
