@@ -69,7 +69,7 @@ A estrutura do projeto deve seguir o padrão Domain-Driven Design (DDD), organiz
 
 - **POST /orders**: Exclusivo para CLIENTES, com regras específicas para validação de endereço, existência e quantidade de produto.
   - Somente usuários do tipo CLIENTE podem enviar ordens
-  - No envio da ordem devemos buscar o endereço de entrega através do serviço ceprapido.com, se o endereço não existir o envio da ordem deve ser negado
+  - No envio da ordem devemos buscar o endereço de entrega através do serviço viacep.com.br, se o endereço não existir o envio da ordem deve ser negado
   - No envio da ordem devemos usar a informação do ID do cliente que está no token
   - No envio da ordem deve ser validado se o produto informado existe
   - No envio da ordem deve ser validado se a quantidade disponível para o produto é maior que a quantidade da ordem
