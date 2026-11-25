@@ -95,3 +95,19 @@ O foco da avaliação será na estratégia adotada para o gerenciamento de pedid
 Ao concluir o desafio, disponibilize o código em um repositório Git publico pessoal em seu nome e envie o link para a equipe de recrutamento da PATHBIT. Documente os passos para execução do projeto e quaisquer outras informações que considere relevantes.
 
 Boa sorte!
+
+---
+
+## Contribuições e proteção de branches
+
+Para sugerir correções no enunciado, abra uma [issue](https://github.com/pathbit/pathbit-dotnet-test-level-1/issues) ou envie um pull request para `master`. Para entregar a solução, siga as instruções da seção [Entrega](#entrega).
+
+---
+
+## 📄 Licença
+
+Este repositório não inclui um arquivo de licença. Para dúvidas sobre o uso ou a redistribuição do enunciado, consulte a Pathbit.
+
+---
+
+Developed with ❤️ by [Pathbit](https://pathbit.co/)
